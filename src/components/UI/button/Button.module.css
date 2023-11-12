@@ -1,0 +1,11 @@
+.button {
+   border: none;
+   outline: none;
+   border-radius: 20px;
+   text-align: center;
+   padding: 10px;
+   font-size: 20px;
+}
+.button:active {
+   transform: translate(1px, 1.5px);
+}

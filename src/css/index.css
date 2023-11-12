@@ -1,0 +1,47 @@
+html, body {
+   padding: 0;
+   margin: 0;
+}
+body {
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+code {
+   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+div {
+   padding: 0;
+   margin: 0;
+}
+button {
+   border: none;
+   outline: none;
+}
+
+.App {
+   height: 100vh;
+   padding: 10px 0;
+   background-color: lightblue;
+}
+.calculator {
+   margin: 0 auto;
+   width: 355px;
+   height: 715px;
+   padding: 15px 5px;
+   border-radius: 40px;
+   display: flex;
+   flex-direction: column;
+}
+.screen {
+   flex: 35% 0 1;
+   padding: 10px;
+   font-size: 30px;
+   text-align: right;
+   border-radius: 25px;
+}
+.buttons {
+   height: 100%;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 30px;
+   padding: 20px 10px;
+}
